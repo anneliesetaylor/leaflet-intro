@@ -1,0 +1,42 @@
+
+h1 {
+  font-family: 'Yeseva One', serif;
+  font-size: 5em;
+  padding: 0.4em;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #242424;
+  color: #fff;
+}
+
+#mymap {
+  height: 600px;
+  width: 70%;
+  border: 5px double #fff;
+
+}
+
+#caption {
+  font-size: 0.8em;
+}
+
+#explanation, #map_exp {
+  font-size: 1.2em;
+}
+
+#attribution {
+  padding: 4em 0;
+}
+
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3em;
+  }
+
+  #mymap {
+    width: 100%;
+  }
+}

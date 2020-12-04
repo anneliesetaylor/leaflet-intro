@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Castles in Germany</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Yeseva+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="">
+  <link rel="stylesheet" href="styles/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+
+      <div class="col-md">
+        <h1 id="text-responsive" class="text-center container-fluid">Castles in Germany</h1>
+      </div>
+
+          <div id="mymap" class="mx-auto"></div>
+
+          <div class="col-sm-8 mx-auto">
+
+            <p id="caption">Map created by Anneliese Taylor using Leaflet and Mapbox. Marker descriptions taken from <a href= "https://en.wikipedia.org/wiki/List_of_castles_in_Germany">Wikipedia</a> (<a href='attribution.html'>see here</a>).</p>
+
+            <p id="explanation">The country of Germany boasts over <a href="https://www.dw.com/en/does-germany-really-have-25000-castles/a-42350502" target="_blank">20,000</a> castles and, though the specific number is unknown, is still known as one of the countries in Europe with the most castles. The division of of the country into small states and regions during the middle ages led to the erection of many of these strucutres. But, after Germany became one nation, these palaces and estates have since been transformed into landmarks, museums, and tourist attractions with visitors traveling from all over the world to take in the beautiful architecture and rich historical background.</p>
+            <p id="map_exp">Use this interactive map to learn more about 20 of the country's most popular castles. Click each marker to learn more.</p>
+
+          </div>
+
+
+      </div>
+    </div>
+  </div>
+
+<script src="scripts/places.js"></script>
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+<script src="scripts/main.js"></script>
+
+</body>
+</html>

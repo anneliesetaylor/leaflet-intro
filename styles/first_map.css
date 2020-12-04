@@ -1,0 +1,15 @@
+
+#mymap {
+  height: 300px;
+  width: 100%;
+  margin-top: 3em;
+
+}
+
+#caption {
+  font-size: 0.8em;
+}
+
+#explanation {
+  font-size: 1.2em;
+}
